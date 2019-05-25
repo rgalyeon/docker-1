@@ -1,5 +1,5 @@
-#Exercise:	Turn Aiur into a slave of the local swarm in which Char is leader (the command to
-#			take control of Aiur is not requested).
+# Exercise:  Turn Aiur into a slave of the local swarm in which Char is leader (the command to
+#            take control of Aiur is not requested).
 
 docker-machine ssh Aiur "docker swarm join \
 --token $(docker swarm join-token -q worker) $(docker-machine ip Char):2377"
