@@ -1,4 +1,4 @@
-#How to build: 1) docker build -t ft-rails:on-build .
+# How to build:  1) docker build -t ft-rails:on-build .
 
 FROM ruby:2.6.2
 
