@@ -1,0 +1,33 @@
+# Bonus exercise:  PAMP with docker-compose, but using MariaDB rather thanMySQL
+
+version: '3'
+
+services:
+    
+  db:
+    image: mariadb
+    restart: always
+    environment:
+      MYSQL_USER: kek
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_PASSWORD: lol
+
+  php:
+    image: php:7.3-apache
+    restart: always
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./app:/var/www/html
+    links:
+      - db
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    restart: always
+    ports: 
+      - "8080:80"
+    links:
+      - db
+

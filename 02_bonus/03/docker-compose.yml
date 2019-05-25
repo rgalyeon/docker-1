@@ -1,0 +1,10 @@
+# Bonus exercise: Container with Jupyter notebook for Python
+
+version: '3'
+services:
+  notebook:
+    ports:
+      - "8888:8888"
+    volumes:
+      - ~/:/home/notebooks
+    build: .

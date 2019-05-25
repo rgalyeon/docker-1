@@ -1,7 +1,7 @@
-#Bonus exercise:	Containerize the server of your favorite game, like Minecraft
+# Bonus exercise:  Containerize the server of your favorite game, like Minecraft
 #
-#How to run:		1) docker build -t minecraft .
-#					2) docker run --rm -d -p 25565:25565 minecraft
+# How to run:  1) docker build -t minecraft .
+#              2) docker run --rm -d -p 25565:25565 minecraft
 
 
 FROM debian:latest
