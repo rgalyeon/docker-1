@@ -5,4 +5,4 @@
 #            IP address of the virtual machine as a URL.
 #            Congratulations, you just deployed a functional Wordpress website in two commands!
 
-docker run -d -p 8080:80 --name lair --link spawning-pool:mysql wordpress
+docker run -d -p 8080:80 --name lair --link spawning-pool:mysql -e WORDPRESS_DB_HOST=spawning-pool:3306 -e WORDPRESS_DB_USER=root -e WORDPRESS_DB_PASSWORD=Kerrigan -e WORDPRESS_DB_NAME=zerlings wordpress
