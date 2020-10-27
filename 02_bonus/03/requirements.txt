@@ -8,7 +8,7 @@ certifi==2018.1.18
 cffi==1.11.5
 chardet==3.0.4
 conda==4.6.8
-cryptography==2.3
+cryptography==3.2
 cycler==0.10.0
 Cython==0.29.3
 daal4py==2019.3
