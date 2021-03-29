@@ -61,7 +61,7 @@ ptyprocess==0.6.0
 pycosat==0.6.3
 pycparser==2.18
 pyeditline==2.0.0
-Pygments==2.3.1
+Pygments==2.7.4
 pyOpenSSL==17.5.0
 pyparsing==2.2.0
 pyrsistent==0.14.11
