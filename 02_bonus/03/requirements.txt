@@ -80,7 +80,7 @@ six==1.11.0
 SMP==0.1.4
 TBB==0.1
 tensorboard==1.12.2
-tensorflow==1.15.0
+tensorflow==2.5.0
 termcolor==1.1.0
 terminado==0.8.2
 testpath==0.4.2
