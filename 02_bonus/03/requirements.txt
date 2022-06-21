@@ -48,7 +48,7 @@ nbformat==4.4.0
 notebook==5.7.8
 numba==0.42.1
 numexpr==2.6.8
-numpy==1.16.1
+numpy==1.22.0
 pandas==0.24.1+0.g1700680.dirty
 pandocfilters==1.4.2
 parso==0.3.4
